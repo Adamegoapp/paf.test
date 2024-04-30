@@ -1,0 +1,45 @@
+.history {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.history p {
+  padding: 0px;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+.searches {
+  display: flex;
+  width: 100%;
+  gap: 1px 2px;
+  flex-wrap: wrap;
+}
+
+.word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(37, 172, 97, 1);
+  border: 1px solid #f3f4f1;
+  padding: 2px 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease-out;
+}
+
+.word:hover {
+  border: 1px solid rgba(37, 172, 97, 1);
+}
+
+@media screen and (max-width: 800px) {
+  .history {
+    flex-direction: column;
+  }
+}

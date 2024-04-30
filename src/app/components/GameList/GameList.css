@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.gameList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+h2 {
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+}
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 550px) {
+  .gameList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

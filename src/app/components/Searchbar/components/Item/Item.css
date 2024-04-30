@@ -1,0 +1,16 @@
+.result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.5s ease-out;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.result img {
+  height: 40px;
+  aspect-ratio: 1 / 1;
+}
+.result:hover {
+  background: rgba(37, 172, 97, 0.6);
+}
